@@ -1,0 +1,92 @@
+.about-main {
+  width: 90%;
+  padding: 20px 10px;
+  margin: 0px auto;
+  margin-top: 0.5rem;
+}
+
+.button-about-div {
+  display: flex;
+  margin: 20px 0;
+}
+
+/* newly added block - start */
+.about-image-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* newly added block - end */
+
+.about-image-div > img {
+  max-width: 100%;
+  height: auto;
+}
+.wave-emoji {
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-name: wave;
+  display: inline-block;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(-10deg);
+  }
+  20% {
+    transform: rotate(12deg);
+  }
+  30% {
+    transform: rotate(-10deg);
+  }
+  40% {
+    transform: rotate(9deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.button-about-div {
+  justify-content: space-around;
+}
+.about-text {
+  font-size: 30px;
+  text-align: center;
+}
+.about-text-p {
+  font-size: 16px;
+  line-height: normal;
+  text-align: center;
+}
+.about-main {
+  display: block;
+}
+
+@media (min-width: 1080px) {
+  .about-main {
+    display: flex;
+  }
+
+  .about-main > * {
+    flex: 1;
+    margin-bottom: 30px;
+  }
+
+  .about-text {
+    font-size: 3em;
+    line-height: 1.1;
+  }
+
+  .about-text-p {
+    font-size: 1.3em;
+    line-height: 40px;
+  }
+}
