@@ -8,6 +8,18 @@ A simple React portfolio website suitable for software engineers and IT staff. T
 - Responsive, mobile-first design
 - Tested with mobile devices
 - Simple React hooks for managing Hamburger menu and scrolling to sections.
+- Data JS file feeds React component content
+
+## Example Content
+
+**About Section**
+![About Section](about.png)
+
+**Sample Skills Section**
+![Example Skills Section](fullstack.png)
+
+**Certifications and Contact**
+![Certification Section](certs.png)
 
 ## Usage
 
